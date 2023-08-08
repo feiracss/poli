@@ -1,0 +1,151 @@
+@font-face {
+  font-family:'m01';
+  src: url(Grande\ Grunge.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+
+    width: 100%;
+    background-color: rgb(83, 82, 82);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.281); 
+  }
+    
+  .logo {
+    text-align: center;
+    
+  }
+
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .logo img {
+    max-width: 220px; /* Defina a largura máxima desejada para a classe 'image' aqui */
+    min-width: 170px; /* Largura mínima */
+    height: auto;
+  }
+
+  h1 {
+    font-family: 'm01', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(51, 51, 197, 0.6);
+    font-size: 25px;
+    margin-bottom: 35px;
+    margin-top: 65px;
+  }
+
+  main {
+    background-color: white;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  p {
+    text-align: justify;
+    padding-bottom: 30px;
+  }
+
+  span {
+    color: rgba(83, 83, 255, 0.562);
+  }
+
+  img {
+   border-radius: 10px;
+  }
+
+  .imagem {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  
+  .imagem img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .imagem img {
+    max-width: 600px; /* Defina a largura máxima desejada para a classe 'image' aqui */
+    min-width: 300px; /* Largura mínima */
+    height: auto;
+  }
+
+  .diferente {
+    text-align: center;
+    margin-bottom: 13%;
+    margin-top: 2%;
+  }
+
+  .diferente img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .diferente img {
+    max-width: 600px; /* Defina a largura máxima desejada para a classe 'image' aqui */
+    min-width: 300px; /* Largura mínima */
+    height: auto;
+  }
+
+  footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(51, 51, 197, 0.5);
+    padding-top: 41px;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 45px;
+}
+
+h2 {
+  font-size: 14px;
+  text-align: justify;
+  padding-bottom: 3px;
+}
+
+ul {
+  max-width: 400px;
+  list-style: circle;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+}
+
+.alun {
+  padding-top: 20px;
+  padding-left: 5%;
+}
+
+footer p {
+  font-size: 8px;
+  text-align: right;
+}
+
+.ultimo {
+  padding-bottom: 5px;
+  padding-top: 3px;
+}
+
+.centro {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
